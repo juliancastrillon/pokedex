@@ -4,6 +4,7 @@ import  DefaultLayout  from "../../layouts/DefaultLayout";
 export const Home = () => (
 
 <DefaultLayout>
+    <h1>Página Inicial</h1>
 </DefaultLayout>
     
 );
