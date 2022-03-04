@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { DefaultLayout } from './components/layouts/DefaultLayout';
+import Home from './components/organisms/pages/Home';
 
 ReactDOM.render(
   <React.StrictMode>
-    <DefaultLayout />
+    <Home />
   </React.StrictMode>,
   document.getElementById('app')
 );

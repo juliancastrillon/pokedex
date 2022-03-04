@@ -1,9 +1,9 @@
 import React from 'react';
 
- export const MainContainer = () => (
+ export const MainContainer = (props) => (
     
     <main>
-        
+        {props.children}
     </main>
  );
 

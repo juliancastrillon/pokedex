@@ -5,13 +5,13 @@ import MainContainer from '../organisms/MainContainer';
 import  Footer  from '../organisms/Footer';
 import { SEO } from '../organisms/SEO';
 
-export const DefaultLayout = () => (
+export const DefaultLayout = (props) => (
 
     <>
     <SEO />
     <Header />
     <Navigation />
-    <MainContainer /> 
+    <MainContainer > {props.children} </MainContainer> 
     <Footer />
     </>
 );
