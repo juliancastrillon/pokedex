@@ -1,9 +1,12 @@
 import React from "react";
+import NavBrand from "../Molecules/NavBrand";
+import NavItem from "../Molecules/NavItems";
 
 export const Navigation = () => (
 
     <nav>
-        <h1></h1>
+        <NavBrand />
+        <NavItem />
     </nav>
 );
 export default Navigation;    

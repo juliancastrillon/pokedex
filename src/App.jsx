@@ -15,7 +15,6 @@ export const App = () => (
         <Route path='*' element={<NoteFound />}/>
     </Routes>
 </BrowserRouter>
-    
 
 );
 
