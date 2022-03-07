@@ -2,7 +2,7 @@ import React from "react";
 import DefaultLayout from "../../layouts/DefaultLayout";
 
 export const PokemonDetails = () => (
-<DefaultLayout>
+<DefaultLayout title='Drtalle'>
 
     <h1>Pokemon details page</h1>
 

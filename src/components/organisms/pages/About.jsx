@@ -3,7 +3,7 @@ import DefaultLayout from '../../layouts/DefaultLayout';
 
 export const About = () => (
 
-    <DefaultLayout>
+    <DefaultLayout title='About'>
         <h1>About page</h1>
     </DefaultLayout>
 );

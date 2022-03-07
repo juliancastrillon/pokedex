@@ -3,7 +3,7 @@ import DefaultLayout from "../../layouts/DefaultLayout";
 
 export const NoteFound = () => (
 
-    <DefaultLayout>
+    <DefaultLayout title='404' >
         <h1>Not Found page</h1>
     </DefaultLayout>
 

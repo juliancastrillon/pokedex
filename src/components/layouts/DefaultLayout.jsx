@@ -8,7 +8,7 @@ import { SEO } from '../organisms/SEO';
 export const DefaultLayout = (props) => (
 
     <>
-    <SEO />
+    <SEO title={props.title} />
     <Header />
     <Navigation />
     <MainContainer > {props.children} </MainContainer> 
