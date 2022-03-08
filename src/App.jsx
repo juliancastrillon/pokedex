@@ -4,6 +4,7 @@ import Home from "./components/organisms/pages/Home";
 import About from './components/organisms/pages/About';
 import PokemonDetails from './components/organisms/pages/PokemonDetails';
 import NoteFound from "./components/organisms/pages/NoteFound";
+import "./assets/css/app.css";
 
 export const App = () => (
 
