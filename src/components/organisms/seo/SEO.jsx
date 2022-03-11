@@ -2,7 +2,7 @@ import React from "react";
 import {Helmet} from 'react-helmet'
 
 
-export const SEO = (props) => {
+ const SEO = (props) => {
  let title = props.title? `Pokedex - ${props.title}` : 'pokedex' ; 
 return (
 <Helmet>

@@ -1,7 +1,7 @@
 import React from "react";
-import DefaultLayout from "../../layouts/DefaultLayout";
+import DefaultLayout from "../../../layouts/default-layout/DefaultLayout";
 
-export const NoteFound = () => (
+const NoteFound = () => (
 
     <DefaultLayout title='404' >
         <h1>Not Found page</h1>

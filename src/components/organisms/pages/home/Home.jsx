@@ -1,8 +1,8 @@
 import React from "react";
-import  DefaultLayout  from "../../layouts/DefaultLayout";
+import  DefaultLayout  from "../../../layouts/default-layout/DefaultLayout";
 import { Link } from "react-router-dom";
 
-export const Home = () => (
+const Home = () => (
 
 <DefaultLayout title='Home'>
     <h1>Página Inicial</h1>

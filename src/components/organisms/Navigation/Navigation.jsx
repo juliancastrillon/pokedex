@@ -1,7 +1,8 @@
 import React from "react";
 import NavBrand from "../../Molecules/NavBar/NavBrand";
-import NavItem from "../../Molecules/NavItems";
+import NavItem from "../../Molecules/nav-items/NavItems";
 import "./Navigation.css";
+
 
 export const Navigation = () => (
 

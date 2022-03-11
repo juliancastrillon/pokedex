@@ -1,6 +1,6 @@
 import React from 'react';
 
- export const MainContainer = (props) => (
+const MainContainer = (props) => (
     
     <main>
         {props.children}
