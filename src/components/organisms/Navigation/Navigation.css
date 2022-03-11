@@ -1,6 +1,6 @@
 .o-navigation{
     display: flex;
-    align-items: center;
+    background-color: darkred;
     justify-content: space-between;
     padding: 1rem;
 }
