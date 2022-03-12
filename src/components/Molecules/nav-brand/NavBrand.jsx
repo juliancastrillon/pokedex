@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import logo from '../../../assets/img/logo.ico';
+import logo from '../../../assets/img/logo.png';
 import "./NavBrand.css";
 
 export const NavBrand = () => {
