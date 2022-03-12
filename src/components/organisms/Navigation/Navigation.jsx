@@ -1,5 +1,5 @@
 import React from "react";
-import NavBrand from "../../Molecules/NavBar/NavBrand";
+import NavBrand from "../../Molecules/nav-brand/NavBrand";
 import NavItem from "../../Molecules/nav-items/NavItems";
 import "./Navigation.css";
 
