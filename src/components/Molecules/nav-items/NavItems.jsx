@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './NavItems.css';
 
 const NavItem = () => (
-    <div>
-        <Link to='/about' > Acerca de </Link>
+    <div className="m-nav-items" >
+        <Link to='/about' className="m-nav-items__item"  > Acerca de </Link>
     </div>
 );
 
