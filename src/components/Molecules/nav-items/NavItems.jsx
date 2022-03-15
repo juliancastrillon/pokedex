@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./NavItems.css";
-import { PropTypes } from "react-PropTypes";
+
 
 const NavItems = (props) => {
 
@@ -23,15 +23,11 @@ const NavItems = (props) => {
      * @returns {JSX.Element}
      */
 
-    const buildItems = () => (props.items ? props.items.map(buildItem): <></>);
+    const buildItems = () => (props.items ? props.items.map(buildItem) : <></>);
     return <div className="m-nav-items">{buildItems()}</div>;
 };
 
-NavItem.prototypes = {
-    items: PropTypes.shape({
-    text: PropTypes.string,
-    target: PropTypes.string,
-}),
 
-};
-export default NavItem;
+
+
+export default NavItems;
