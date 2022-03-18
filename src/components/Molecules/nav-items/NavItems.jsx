@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import PropTypes from 'prop-types';
 import "./NavItems.css";
 
 
@@ -27,6 +28,14 @@ const NavItems = (props) => {
     return <div className="m-nav-items">{buildItems()}</div>;
 };
 
+NavItems.props = {
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      text: PropTypes.string,
+      targrt:PropTypes.string,
+    })
+  ),
+};
 
 
 
