@@ -1,9 +1,10 @@
 import React from "react";
+import './Footer.css';
 
 export  const Footer = () => (
 
-    <footer>
-        <h1></h1>
+    <footer className="o-footer" >
+        &copy; julián castrillón 2022
     </footer>
 );
 export default  Footer;    

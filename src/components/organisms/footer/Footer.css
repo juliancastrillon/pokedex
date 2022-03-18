@@ -1,0 +1,9 @@
+.o-footer {
+    align-items: center;
+    background-color: #cf3935;
+    color: #fff;
+    height: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
