@@ -1,0 +1,15 @@
+.a-pokemon-image-container {
+    align-self: center;
+    height: 219px;
+    margin-inline-end: 10px;
+    margin-block-start: 10px;
+    width: 60px;
+}
+.a-pokemon-image-container__img {
+    display: flex;
+    width: 200px;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-block-start: -30px;
+}
