@@ -2,12 +2,13 @@ import React from "react";
 import './PokemonTitle.css';
 
 const PokemonTitle = (props) => {
-    return(
+    const {name , image } = props;
+    return(    
     <div className="a-pokemon-title"  > 
         <picture>
-            <img className="title-image" src={props.image} alt={props.name}></img>
+            <img className="title-image" src={image} alt='imagen de pokemon'></img>
         </picture>
-        <h1 >{props.name}</h1>
+        <h1 >{name}</h1>
     </div>
 )};
 

@@ -14,8 +14,9 @@
     text-align: center;
 }
 .a-pokemon-stat__name {
-    font-size: small;
-    font-weight: 400;
+    font-size: 0.6rem;
+    font-weight: 500;
+    display: grid;
 }
 .a-pokemon-stat__value {
     font-size: larger;

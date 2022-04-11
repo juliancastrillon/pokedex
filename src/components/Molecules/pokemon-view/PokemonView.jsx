@@ -1,16 +1,17 @@
 import React from "react";
-import PokemonImage from "../../atomo/PokemonImage/PokemonImage";
-import PokemonStats from "../../atomo/PokemonStats/PokemonStats";
-import PokemonTitle from "../../atomo/pokemonTitle/PokemonTitle";
-import PokemonCards from "../../atomo/RelatedPokemons/PokemonCards/PokemonCards";
+import PokemonImage from "../../atoms/PokemonImage/PokemonImage";
+import PokemonStats from "../../atoms/PokemonStats/PokemonStats";
+import PokemonTitle from "../../atoms/pokemonTitle/PokemonTitle";
+import PokemonCards from "../../atoms/RelatedPokemons/PokemonCards/PokemonCards";
+
 
 const PokemonView = (props) => {
-
+const {pokemon} = props;
 return(
     <>
-    <PokemonTitle  image={props.image} name={props.name} />
-    <PokemonImage name={props.name} image={props.image}/>
-    <PokemonStats />
+    <PokemonTitle  name={pokemon.name} type={pokemon.type} image={pokemon.image} />
+    <PokemonImage  image={pokemon.image}/>
+    <PokemonStats stats={pokemon.stats} />
     <PokemonCards />
     </>
 )};
