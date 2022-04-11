@@ -1,0 +1,25 @@
+.a-pokemon-stats{
+    display: grid;
+    grid-template-columns: repeat(2, auto); 
+    place-items: center;
+    width: 300px;
+    min-width: 200px;
+    max-width: 500px;
+    height: 52vh;
+    border-radius: 15px;
+    background: whitesmoke;
+    box-shadow: 5px 5px 10px #5a5a5a, -5px -5px 10px whitesmoke;
+    margin-block-start: 20px;
+    margin-inline-start: 200px; 
+    text-align: center;
+}
+.a-pokemon-stat__name {
+    font-size: 0.6rem;
+    font-weight: 500;
+    display: grid;
+}
+.a-pokemon-stat__value {
+    font-size: larger;
+    font-weight: 500;
+}
+

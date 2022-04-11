@@ -1,0 +1,16 @@
+
+.link-pokemondetails {
+    text-decoration: none;
+    color: #e1e2e1;
+    position: absolute;
+    margin-block-start: 360px;
+    background-color: #CF3935;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+.p-initial {
+    margin-block-start: 64px;
+    position: absolute;
+    width: 100vh;
+    text-align: center;
+}

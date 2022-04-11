@@ -1,0 +1,9 @@
+.title-about {
+    margin-block-start: 100px;
+}
+.p-about {
+    position: absolute;
+    max-width: 40vw;
+    text-align: center;
+    margin-block-start: 200px;
+}

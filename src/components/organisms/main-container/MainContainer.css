@@ -1,0 +1,6 @@
+.o-main-container {
+    display: flex;
+    background-color: #E1E2E1;
+    height: 80vh;
+    justify-content: center;
+}
