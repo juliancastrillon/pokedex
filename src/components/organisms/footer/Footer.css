@@ -2,8 +2,6 @@
     align-items: center;
     background-color: #cf3935;
     color: #fff;
-    height: 2rem;
+    height: 10vh;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
 }

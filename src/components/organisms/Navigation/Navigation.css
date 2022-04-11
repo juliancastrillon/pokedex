@@ -1,10 +1,9 @@
-
-
 .o-navigation{
     align-items: center;
     background-color: #cf3935;
     color: #ffffffff;
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    height: 10vh;
+    padding: 0px 40px;
 }

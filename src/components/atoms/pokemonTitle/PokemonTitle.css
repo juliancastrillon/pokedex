@@ -1,0 +1,19 @@
+.a-pokemon-title {
+    background: whitesmoke;
+    box-shadow: 5px 5px 10px #5a5a5a, -5px -5px 10px whitesmoke;
+    border-radius: 10px;
+    padding: 1px 30px;
+    position: absolute;
+    margin-block-start: 20px;
+    margin-inline-start: -400px;
+    display: flex;
+    align-items: center;
+}
+.title-image {
+    margin-inline-end: 10px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color:gray;
+    margin-block-start: 5px;
+}

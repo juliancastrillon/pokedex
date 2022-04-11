@@ -1,0 +1,17 @@
+.a-pokemons-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 150px;
+    background-color: #cf3935;
+    bottom: 0;
+    position: absolute;
+    list-style: none;
+}
+.evolution {
+    width: 200px;
+    color: whitesmoke;
+    position: absolute;
+    margin-inline-start: -400px;
+}

@@ -1,12 +1,14 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./components/organisms/pages/home/Home";
-import About from './components/organisms/pages/about/About';
-import PokemonDetails from './components/organisms/pages/pokemon-details/PokemonDetails';
-import NoteFound from "./components/organisms/pages/not-found/NoteFound";
+import Home from "./components/pages/home/Home";
+import About from './components/pages/about/About';
+import PokemonDetails from './components/pages/pokemon-details/PokemonDetails';
+import NoteFound from "./components/pages/not-found/NoteFound";
 import "./assets/css/app.css";
 
-const App = () => (
+const App = (props) => {
+    
+return(
 
 <BrowserRouter>
     <Routes>
@@ -18,5 +20,5 @@ const App = () => (
 </BrowserRouter>
 
 );
-
+}
 export default App;
